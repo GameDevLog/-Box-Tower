@@ -1,7 +1,7 @@
-# GameDevLogTemplete
+# Box Tower
 ---
 
-游戏开发日志模板
+堆箱塔
 
 If you like, please give me a star. Thank you!
 

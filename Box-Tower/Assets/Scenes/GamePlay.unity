@@ -366,6 +366,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1181862037}
   - component: {fileID: 1181862036}
+  - component: {fileID: 1181862038}
   m_Layer: 0
   m_Name: Platform Holder
   m_TagString: Untagged
@@ -436,6 +437,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1181862038
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181862035}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.12, y: 5.12}
+    newSize: {x: 5.12, y: 5.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.12, y: 5.12}
+  m_EdgeRadius: 0
 --- !u!1 &1835306991
 GameObject:
   m_ObjectHideFlags: 0
@@ -522,3 +549,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a82e08ea59afe4cb2916fec362a851c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  boxPrefabs: {fileID: 4953911145638596046, guid: 383b2d255f94d485bb1ee29c36d20b1c,
+    type: 3}

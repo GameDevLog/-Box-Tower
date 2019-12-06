@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class BoxSwapner : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject boxPrefabs;
+
     void Start()
     {
-        
+        SwapBox();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SwapBox()
     {
-        
+        GameObject boxObject = Instantiate(boxPrefabs);
+
+        boxObject.transform.position = transform.position;
     }
 }

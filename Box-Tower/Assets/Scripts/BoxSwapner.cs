@@ -6,7 +6,7 @@ public class BoxSwapner : MonoBehaviour
 {
     public GameObject boxPrefabs;
 
-    public void SwapBox()
+    public void SpawnBox()
     {
         GameObject boxObject = Instantiate(boxPrefabs);
 

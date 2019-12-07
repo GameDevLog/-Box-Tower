@@ -239,6 +239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bf3e01c53c554b8281f5acc44dbd190, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetPos: {x: 0, y: 0, z: 0}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -369,7 +370,7 @@ GameObject:
   - component: {fileID: 1181862038}
   m_Layer: 0
   m_Name: Platform Holder
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -521,7 +522,7 @@ GameObject:
   - component: {fileID: 1878433907}
   m_Layer: 0
   m_Name: Box Spawner
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

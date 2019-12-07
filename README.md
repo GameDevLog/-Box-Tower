@@ -16,7 +16,7 @@ If you like, please give me a star. Thank you!
 
 ## ScreenShots / 最新游戏截图
 
-![Guess The Number](https://raw.githubusercontent.com/GameDevLog/GameDevLogTemplete/master/ScreenShots/GuessTheNumber.gif)
+![Box Tower](https://raw.githubusercontent.com/GameDevLog/GameDevLogTemplete/master/ScreenShots/3.BoxTower.gif)
 
 ## Games List / 游戏列表
 

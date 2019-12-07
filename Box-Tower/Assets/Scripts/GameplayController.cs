@@ -1,18 +1,40 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class GameplayController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public static GameplayController instance;
+
+    public BoxSwapner boxSwapner;
+
+    [HideInInspector]
+    public BoxScript currentBox;
+
+    public CameraFollow cameraScript;
+    private int moveCount;
+
+    private void Awake()
     {
-        
+        if (instance == null)
+        {
+            instance = this;
+        }
     }
 
-    // Update is called once per frame
+    private void Start()
+    {
+        boxSwapner.SwapBox();
+    }
+
     void Update()
     {
-        
+        DetectInput();
+    }
+
+    void DetectInput()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            currentBox.DropBox();
+        }
     }
 }

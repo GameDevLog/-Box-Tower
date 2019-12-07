@@ -492,6 +492,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e861fd276d364334b48100806a4ffde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  boxSwapner: {fileID: 1878433907}
+  currentBox: {fileID: 0}
+  cameraScript: {fileID: 519420030}
 --- !u!4 &1835306993
 Transform:
   m_ObjectHideFlags: 0
@@ -500,7 +503,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1835306991}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.8391872, y: 0.18369946, z: -1.0282521}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

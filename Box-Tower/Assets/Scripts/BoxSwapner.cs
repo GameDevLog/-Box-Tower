@@ -6,11 +6,6 @@ public class BoxSwapner : MonoBehaviour
 {
     public GameObject boxPrefabs;
 
-    void Start()
-    {
-        SwapBox();
-    }
-
     public void SwapBox()
     {
         GameObject boxObject = Instantiate(boxPrefabs);
